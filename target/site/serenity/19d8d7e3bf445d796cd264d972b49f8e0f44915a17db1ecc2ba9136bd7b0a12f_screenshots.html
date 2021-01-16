@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="15c4b8be61cca23237e4c5f8eeb5c0ac8e5051275dd69ab1de269a1c98267657.html">Utest Community</a></span>
+                > <span class="truncate-60"><a
+                    href="19d8d7e3bf445d796cd264d972b49f8e0f44915a17db1ecc2ba9136bd7b0a12f.html">Create new user </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-01-2021 05:00</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Utest Community </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want to learn how to make software tests on Utest web page
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="c2651a621266c4144404b2de7423057269bd8eea3508dec63cbfa5e853cf0d7d.html">Challenges
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Create new user
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="e72aed344f3af249a16f807a3858b74177379bf178503a4541c681a3c6c8a980.png" title=" Given than Luz wants be a freelance software tester on Utest web page" width="1366"/>
+                <img src="e72aed344f3af249a16f807a3858b74177379bf178503a4541c681a3c6c8a980.png" title=" Luz open up" width="1366"/>
+                <img src="e72aed344f3af249a16f807a3858b74177379bf178503a4541c681a3c6c8a980.png" title=" Luz opens the U test page" width="1366"/>
+                <img src="e72aed344f3af249a16f807a3858b74177379bf178503a4541c681a3c6c8a980.png" title=" Luz open up (completed)" width="1366"/>
+                <img src="e72aed344f3af249a16f807a3858b74177379bf178503a4541c681a3c6c8a980.png" title=" Given than Luz wants be a freelance software tester on Utest web page (completed)" width="1366"/>
+                <img src="2b636dcdf563719a0e8cd40f9e09c2b558578456227820dafe453fa77662c2e2.png" title=" When she Diligence the differents registration forms on Utest web page" width="1366"/>
+                <img src="2b636dcdf563719a0e8cd40f9e09c2b558578456227820dafe453fa77662c2e2.png" title=" Luz diligence person" width="1366"/>
+                <img src="2b636dcdf563719a0e8cd40f9e09c2b558578456227820dafe453fa77662c2e2.png" title=" Luz clicks on button that shows us the form to the Register" width="1366"/>
+                <img src="1d6079d733c7d927a3330131428894d869af7dac3d01d468cffe7d7c902357f6.png" title=" Luz enters 'Luz' into Where do we write the first name" width="1366"/>
+                <img src="55f086b10b3894a6b17a7b8d9452dd07a8ce301b52ce07122ed80bd194ccda85.png" title=" Luz enters 'Palacios' into Where do we write the last name" width="1366"/>
+                <img src="c700d0f73d444d4bf424b762a84deedbe195f2cc4eb77f9ebbbae2e28e877bd4.png" title=" Luz enters 'lo@gmail.com' into Where do we write the email" width="1366"/>
+                <img src="4bb81eb4e8439baf389dcc8cf81d5fa04627ce75194a5d672a612e3d4682dc88.png" title=" Luz clicks on Where do select the birth month" width="1366"/>
+                <img src="91028996153cd05aa2b532aa13044c6626813ec90e38bd20fb18e518ff7c09e3.png" title=" Luz clicks on Where do select the birth month" width="1366"/>
+                <img src="621e7353161f8665cf3cffd7e136e3af4891c32242ec25767dcd2279339e3e89.png" title=" Luz clicks on Where do select the birth day" width="1366"/>
+                <img src="8d74c02b762bf4d0096bdd5ddfd74ff655fc56de4cf5d85830959378d8c9c5fd.png" title=" Luz clicks on Where do select the birth day" width="1366"/>
+                <img src="448dfbad286116b7a244f25d92dd178792c0934ae2ba1762234a29b23f2883e0.png" title=" Luz clicks on Where do select the birth year" width="1366"/>
+                <img src="e0fba61fb0fca5b5cf65908b6c0b7666d7a5b050432f09e98ced30ea8e87d1f3.png" title=" Luz clicks on Where do select the birth year" width="1366"/>
+                <img src="e8f78703f39c9a592c5382a1b2812e2c50847d24082c5260eb907ed000c4d1eb.png" title=" Luz clicks on button that shows us the form to the Register" width="1366"/>
+                <img src="e8f78703f39c9a592c5382a1b2812e2c50847d24082c5260eb907ed000c4d1eb.png" title=" Luz diligence person (completed)" width="1366"/>
+                <img src="675e15185b5108b95574f25d2bde145fc771decb25eca385dfe87d07db5bd461.png" title=" Luz diligence adress" width="1366"/>
+                <img src="675e15185b5108b95574f25d2bde145fc771decb25eca385dfe87d07db5bd461.png" title=" Luz enters 'Quibdo' into Where do we write the City" width="1366"/>
+                <img src="4ba8c916d39729677d806a1f6af2d154b233b29215b72c4d49d8f04d65df92b0.png" title=" Luz enters '270002' into Where do we write the Postal Code" width="1366"/>
+                <img src="5b151332f90f058f6fd51c4d043fc3084c501a73b44eb78bb56d964d4d26dbfa.png" title=" Luz clicks on Where do open the selector of Country" width="1366"/>
+                <img src="1f9f42579e0d5daf703dc5c221496d768137cf61726ab0302d9decfd46f5763b.png" title=" Luz clicks on Where do select the Country" width="1366"/>
+                <img src="21b540f2390cb60f5965ae4a59fa8788a5b2e37f54bdc1d0b4e27f83e9f5c82d.png" title=" Luz clicks on button that shows us the next form of the Register" width="1366"/>
+                <img src="21b540f2390cb60f5965ae4a59fa8788a5b2e37f54bdc1d0b4e27f83e9f5c82d.png" title=" Luz diligence adress (completed)" width="1366"/>
+                <img src="e144a35bf8a4ef162920f832df2754c09a30910e4e97bcaac7c6395e54273285.png" title=" Luz diligence devices" width="1366"/>
+                <img src="e144a35bf8a4ef162920f832df2754c09a30910e4e97bcaac7c6395e54273285.png" title=" Luz clicks on Where do open the selector of computer's SO" width="1366"/>
+                <img src="415ee69f609a60604c916b7cd035fcbbec6b1c1d404d9bcb87b68c6742291f51.png" title=" Luz clicks on Where do select the SO of the computer" width="1366"/>
+                <img src="295792c278e1be8f4ff7e76a1b2984cd1162cf301800c606f67a4bd53fa053df.png" title=" Luz clicks on Where do open the selector the SO's version of the computer" width="1366"/>
+                <img src="d072aa17264519347970c04fe78bbc96e0eaad733b73fc2fb78830463624720a.png" title=" Luz clicks on Where do select the SO's version of the computer" width="1366"/>
+                <img src="f07545fe8377d001a265b554dc04137d21af13d04c30f0e327d9230b642c23a7.png" title=" Luz clicks on Where do open the selector of SO's language of the computer" width="1366"/>
+                <img src="02122b8644d00649337f5b3b7e45bb4cc80f5c4418178f9cb0350554f45c750a.png" title=" Luz clicks on Where do select the SO's language of the computer" width="1366"/>
+                <img src="01b856d1d2d8795314babb9c0867a6db608bf2b09e4023bd7173eca5392223dc.png" title=" Luz clicks on Where do open the selector of device's marker" width="1366"/>
+                <img src="cd42d3399b665204dc2fc9a368c55928129c266dbbbe576f006a384ab818883c.png" title=" Luz clicks on Where do select the device's marker" width="1366"/>
+                <img src="fcbe778b78c81ec04613ac11a3eae20184a720fa4087e570e40940f50fed69c3.png" title=" Luz clicks on Where do open the selector of marker's model" width="1366"/>
+                <img src="921433438d22022b6fba9b8e7bc49354fa0646d602e262c5e9f47a114fa6e716.png" title=" Luz clicks on Where do select the marker's model" width="1366"/>
+                <img src="88943ad139a4c90e42d396fd7e13399d0ba27ed2680806eccf961eb2ba716fb9.png" title=" Luz clicks on Where do open the selector of SO's device" width="1366"/>
+                <img src="6551a25188f261f32fcd708f2582ac6cf3ab0eb8ee31cfb6a9d3a3b2802ed702.png" title=" Luz clicks on Where do select the SO's device" width="1366"/>
+                <img src="235b13343affbf070a3e1d126d80efcc1d25fba5fa597518ddab528e86b13af4.png" title=" Luz clicks on button that shows us the next form of the Register" width="1366"/>
+                <img src="235b13343affbf070a3e1d126d80efcc1d25fba5fa597518ddab528e86b13af4.png" title=" Luz diligence devices (completed)" width="1366"/>
+                <img src="5b427297103f065505c07f291544bf153c0e4c3aeb94334c551b4a33dee828e8.png" title=" Luz diligence password" width="1366"/>
+                <img src="5b427297103f065505c07f291544bf153c0e4c3aeb94334c551b4a33dee828e8.png" title=" Luz enters 'THETESTISREADYthetestisready1234' into Where do we write the password" width="1366"/>
+                <img src="4621802ca7194ec81724595e0ef7734a23dd449100cfb8d11c325892631ed8eb.png" title=" Luz enters 'THETESTISREADYthetestisready1234' into Where do we rewrite the password" width="1366"/>
+                <img src="4621802ca7194ec81724595e0ef7734a23dd449100cfb8d11c325892631ed8eb.png" title=" Luz diligence password (completed)" width="1366"/>
+                <img src="4621802ca7194ec81724595e0ef7734a23dd449100cfb8d11c325892631ed8eb.png" title=" When she Diligence the differents registration forms on Utest web page (completed)" width="1366"/>
+                <img src="911cdfbe2e7b96dbcac4e3ea18ed186b23a33c155b2140a5d363e78c34e8e4b4.png" title=" Then she is successfully registered on the Utest's platform" width="1366"/>
+                <img src="911cdfbe2e7b96dbcac4e3ea18ed186b23a33c155b2140a5d363e78c34e8e4b4.png" title=" Luz complete" width="1366"/>
+                <img src="911cdfbe2e7b96dbcac4e3ea18ed186b23a33c155b2140a5d363e78c34e8e4b4.png" title=" Luz clicks on Checkbox for confirm the agree with the uTest's Terms of Use " width="1366"/>
+                <img src="cc9f4f1b46d1d1bee3b9bb9230cf71399d89af694e3d934e8d2d56461fe1cbb7.png" title=" Luz clicks on Checkbox for confirm the agree with the uTest's Privacy &amp; Security Policy" width="1366"/>
+                <img src="233efb3f26c8f30f08f5f1efd391b3330023df831c7681c2c4c661869f9e6b0b.png" title=" Luz clicks on button that shows us the successful creation message" width="1366"/>
+                <img src="233efb3f26c8f30f08f5f1efd391b3330023df831c7681c2c4c661869f9e6b0b.png" title=" Luz complete (completed)" width="1366"/>
+                <img src="d222a69d79a5f8cb139ba6060fd171a42c8f2980b25258e2af4c3d9137a88531.png" title=" Then she is successfully registered on the Utest's platform (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
