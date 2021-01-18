@@ -132,7 +132,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-01-2021 05:00</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-01-2021 16:24</span>
     <br style="clear:left"/>
 </div>
 
@@ -179,9 +179,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Create new user
+                                <span class="failing-color">Create new user
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -198,6 +198,52 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>co.com.reto.utest.tasks.DiligenceDevices.performAs(DiligenceDevices.java:16)<br />co.com.reto.utest.stepdefinitions.UTestStepDefinitions.sheDiligenceTheDifferentsRegistrationFormsOnUtestWebPage(UTestStepDefinitions.java:25)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.name: osId to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                        <pre>co.com.reto.utest.tasks.DiligenceDevices.performAs(DiligenceDevices.java :16)<br />co.com.reto.utest.stepdefinitions.UTestStepDefinitions.sheDiligenceTheDifferentsRegistrationFormsOnUtestWebPage(UTestStepDefinitions.java :25)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
                 <img src="e72aed344f3af249a16f807a3858b74177379bf178503a4541c681a3c6c8a980.png" title=" Given than Luz wants be a freelance software tester on Utest web page" width="1366"/>
@@ -205,54 +251,27 @@
                 <img src="e72aed344f3af249a16f807a3858b74177379bf178503a4541c681a3c6c8a980.png" title=" Luz opens the U test page" width="1366"/>
                 <img src="e72aed344f3af249a16f807a3858b74177379bf178503a4541c681a3c6c8a980.png" title=" Luz open up (completed)" width="1366"/>
                 <img src="e72aed344f3af249a16f807a3858b74177379bf178503a4541c681a3c6c8a980.png" title=" Given than Luz wants be a freelance software tester on Utest web page (completed)" width="1366"/>
-                <img src="2b636dcdf563719a0e8cd40f9e09c2b558578456227820dafe453fa77662c2e2.png" title=" When she Diligence the differents registration forms on Utest web page" width="1366"/>
-                <img src="2b636dcdf563719a0e8cd40f9e09c2b558578456227820dafe453fa77662c2e2.png" title=" Luz diligence person" width="1366"/>
-                <img src="2b636dcdf563719a0e8cd40f9e09c2b558578456227820dafe453fa77662c2e2.png" title=" Luz clicks on button that shows us the form to the Register" width="1366"/>
+                <img src="434dd4ca04523d5aaadd074698203f7175f71137bd088b69a44b81070a535c24.png" title=" When she Diligence the differents registration forms on Utest web page" width="1366"/>
+                <img src="434dd4ca04523d5aaadd074698203f7175f71137bd088b69a44b81070a535c24.png" title=" Luz diligence person" width="1366"/>
+                <img src="434dd4ca04523d5aaadd074698203f7175f71137bd088b69a44b81070a535c24.png" title=" Luz clicks on button that shows us the form to the Register" width="1366"/>
                 <img src="1d6079d733c7d927a3330131428894d869af7dac3d01d468cffe7d7c902357f6.png" title=" Luz enters 'Luz' into Where do we write the first name" width="1366"/>
-                <img src="55f086b10b3894a6b17a7b8d9452dd07a8ce301b52ce07122ed80bd194ccda85.png" title=" Luz enters 'Palacios' into Where do we write the last name" width="1366"/>
+                <img src="ed4584d3cabee2395f726dc9a05014108e46c5859eda2281565c8b9c262ca755.png" title=" Luz enters 'Palacios' into Where do we write the last name" width="1366"/>
                 <img src="c700d0f73d444d4bf424b762a84deedbe195f2cc4eb77f9ebbbae2e28e877bd4.png" title=" Luz enters 'lo@gmail.com' into Where do we write the email" width="1366"/>
                 <img src="4bb81eb4e8439baf389dcc8cf81d5fa04627ce75194a5d672a612e3d4682dc88.png" title=" Luz clicks on Where do select the birth month" width="1366"/>
                 <img src="91028996153cd05aa2b532aa13044c6626813ec90e38bd20fb18e518ff7c09e3.png" title=" Luz clicks on Where do select the birth month" width="1366"/>
-                <img src="621e7353161f8665cf3cffd7e136e3af4891c32242ec25767dcd2279339e3e89.png" title=" Luz clicks on Where do select the birth day" width="1366"/>
-                <img src="8d74c02b762bf4d0096bdd5ddfd74ff655fc56de4cf5d85830959378d8c9c5fd.png" title=" Luz clicks on Where do select the birth day" width="1366"/>
-                <img src="448dfbad286116b7a244f25d92dd178792c0934ae2ba1762234a29b23f2883e0.png" title=" Luz clicks on Where do select the birth year" width="1366"/>
-                <img src="e0fba61fb0fca5b5cf65908b6c0b7666d7a5b050432f09e98ced30ea8e87d1f3.png" title=" Luz clicks on Where do select the birth year" width="1366"/>
+                <img src="8e5dd469fce6c4442077847c1b98df173966264b507bcc35193bcc94694d4615.png" title=" Luz clicks on Where do select the birth day" width="1366"/>
+                <img src="6375a5a5c5bf6c105d6f9983bd423d55007220a0876f19d40e051cb402146de9.png" title=" Luz clicks on Where do select the birth day" width="1366"/>
+                <img src="14ee5e804030439831b9f924b511d282e914dae82a09095937b0b3143ac551b3.png" title=" Luz clicks on Where do select the birth year" width="1366"/>
+                <img src="397f5d7dcc72d9b48e6453fcd0385747816d6cb5523447b6a52b54c141867794.png" title=" Luz clicks on Where do select the birth year" width="1366"/>
                 <img src="e8f78703f39c9a592c5382a1b2812e2c50847d24082c5260eb907ed000c4d1eb.png" title=" Luz clicks on button that shows us the form to the Register" width="1366"/>
                 <img src="e8f78703f39c9a592c5382a1b2812e2c50847d24082c5260eb907ed000c4d1eb.png" title=" Luz diligence person (completed)" width="1366"/>
-                <img src="675e15185b5108b95574f25d2bde145fc771decb25eca385dfe87d07db5bd461.png" title=" Luz diligence adress" width="1366"/>
-                <img src="675e15185b5108b95574f25d2bde145fc771decb25eca385dfe87d07db5bd461.png" title=" Luz enters 'Quibdo' into Where do we write the City" width="1366"/>
-                <img src="4ba8c916d39729677d806a1f6af2d154b233b29215b72c4d49d8f04d65df92b0.png" title=" Luz enters '270002' into Where do we write the Postal Code" width="1366"/>
-                <img src="5b151332f90f058f6fd51c4d043fc3084c501a73b44eb78bb56d964d4d26dbfa.png" title=" Luz clicks on Where do open the selector of Country" width="1366"/>
-                <img src="1f9f42579e0d5daf703dc5c221496d768137cf61726ab0302d9decfd46f5763b.png" title=" Luz clicks on Where do select the Country" width="1366"/>
-                <img src="21b540f2390cb60f5965ae4a59fa8788a5b2e37f54bdc1d0b4e27f83e9f5c82d.png" title=" Luz clicks on button that shows us the next form of the Register" width="1366"/>
-                <img src="21b540f2390cb60f5965ae4a59fa8788a5b2e37f54bdc1d0b4e27f83e9f5c82d.png" title=" Luz diligence adress (completed)" width="1366"/>
-                <img src="e144a35bf8a4ef162920f832df2754c09a30910e4e97bcaac7c6395e54273285.png" title=" Luz diligence devices" width="1366"/>
-                <img src="e144a35bf8a4ef162920f832df2754c09a30910e4e97bcaac7c6395e54273285.png" title=" Luz clicks on Where do open the selector of computer's SO" width="1366"/>
-                <img src="415ee69f609a60604c916b7cd035fcbbec6b1c1d404d9bcb87b68c6742291f51.png" title=" Luz clicks on Where do select the SO of the computer" width="1366"/>
-                <img src="295792c278e1be8f4ff7e76a1b2984cd1162cf301800c606f67a4bd53fa053df.png" title=" Luz clicks on Where do open the selector the SO's version of the computer" width="1366"/>
-                <img src="d072aa17264519347970c04fe78bbc96e0eaad733b73fc2fb78830463624720a.png" title=" Luz clicks on Where do select the SO's version of the computer" width="1366"/>
-                <img src="f07545fe8377d001a265b554dc04137d21af13d04c30f0e327d9230b642c23a7.png" title=" Luz clicks on Where do open the selector of SO's language of the computer" width="1366"/>
-                <img src="02122b8644d00649337f5b3b7e45bb4cc80f5c4418178f9cb0350554f45c750a.png" title=" Luz clicks on Where do select the SO's language of the computer" width="1366"/>
-                <img src="01b856d1d2d8795314babb9c0867a6db608bf2b09e4023bd7173eca5392223dc.png" title=" Luz clicks on Where do open the selector of device's marker" width="1366"/>
-                <img src="cd42d3399b665204dc2fc9a368c55928129c266dbbbe576f006a384ab818883c.png" title=" Luz clicks on Where do select the device's marker" width="1366"/>
-                <img src="fcbe778b78c81ec04613ac11a3eae20184a720fa4087e570e40940f50fed69c3.png" title=" Luz clicks on Where do open the selector of marker's model" width="1366"/>
-                <img src="921433438d22022b6fba9b8e7bc49354fa0646d602e262c5e9f47a114fa6e716.png" title=" Luz clicks on Where do select the marker's model" width="1366"/>
-                <img src="88943ad139a4c90e42d396fd7e13399d0ba27ed2680806eccf961eb2ba716fb9.png" title=" Luz clicks on Where do open the selector of SO's device" width="1366"/>
-                <img src="6551a25188f261f32fcd708f2582ac6cf3ab0eb8ee31cfb6a9d3a3b2802ed702.png" title=" Luz clicks on Where do select the SO's device" width="1366"/>
-                <img src="235b13343affbf070a3e1d126d80efcc1d25fba5fa597518ddab528e86b13af4.png" title=" Luz clicks on button that shows us the next form of the Register" width="1366"/>
-                <img src="235b13343affbf070a3e1d126d80efcc1d25fba5fa597518ddab528e86b13af4.png" title=" Luz diligence devices (completed)" width="1366"/>
-                <img src="5b427297103f065505c07f291544bf153c0e4c3aeb94334c551b4a33dee828e8.png" title=" Luz diligence password" width="1366"/>
-                <img src="5b427297103f065505c07f291544bf153c0e4c3aeb94334c551b4a33dee828e8.png" title=" Luz enters 'THETESTISREADYthetestisready1234' into Where do we write the password" width="1366"/>
-                <img src="4621802ca7194ec81724595e0ef7734a23dd449100cfb8d11c325892631ed8eb.png" title=" Luz enters 'THETESTISREADYthetestisready1234' into Where do we rewrite the password" width="1366"/>
-                <img src="4621802ca7194ec81724595e0ef7734a23dd449100cfb8d11c325892631ed8eb.png" title=" Luz diligence password (completed)" width="1366"/>
-                <img src="4621802ca7194ec81724595e0ef7734a23dd449100cfb8d11c325892631ed8eb.png" title=" When she Diligence the differents registration forms on Utest web page (completed)" width="1366"/>
-                <img src="911cdfbe2e7b96dbcac4e3ea18ed186b23a33c155b2140a5d363e78c34e8e4b4.png" title=" Then she is successfully registered on the Utest's platform" width="1366"/>
-                <img src="911cdfbe2e7b96dbcac4e3ea18ed186b23a33c155b2140a5d363e78c34e8e4b4.png" title=" Luz complete" width="1366"/>
-                <img src="911cdfbe2e7b96dbcac4e3ea18ed186b23a33c155b2140a5d363e78c34e8e4b4.png" title=" Luz clicks on Checkbox for confirm the agree with the uTest's Terms of Use " width="1366"/>
-                <img src="cc9f4f1b46d1d1bee3b9bb9230cf71399d89af694e3d934e8d2d56461fe1cbb7.png" title=" Luz clicks on Checkbox for confirm the agree with the uTest's Privacy &amp; Security Policy" width="1366"/>
-                <img src="233efb3f26c8f30f08f5f1efd391b3330023df831c7681c2c4c661869f9e6b0b.png" title=" Luz clicks on button that shows us the successful creation message" width="1366"/>
-                <img src="233efb3f26c8f30f08f5f1efd391b3330023df831c7681c2c4c661869f9e6b0b.png" title=" Luz complete (completed)" width="1366"/>
-                <img src="d222a69d79a5f8cb139ba6060fd171a42c8f2980b25258e2af4c3d9137a88531.png" title=" Then she is successfully registered on the Utest's platform (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="c97f5a7afaf6e31daf0e23521a7d55304407d7abc4cea1433d7f440eeabb566f.png" title=" Luz diligence adress" width="1366"/>
+                <img src="c97f5a7afaf6e31daf0e23521a7d55304407d7abc4cea1433d7f440eeabb566f.png" title=" Luz enters 'Quibdo' into Where do we write the City" width="1366"/>
+                <img src="4474e41e67e2a8d51941e6be2a8879cae110cd95b7e310fc5dd2f65eba26364f.png" title=" Luz enters '270002' into Where do we write the Postal Code" width="1366"/>
+                <img src="dceaa41a3ee33dfe6e37ab8dd1c47eb2727f480160dd54b536f97b4cf41f2aa4.png" title=" Luz clicks on Where do open the selector of Country" width="1366"/>
+                <img src="d7056c257bbb6f0557de96602b2c5033772ad880275c87eccb8d21099b4df7c2.png" title=" Luz clicks on Where do select the Country" width="1366"/>
+                <img src="ece351916fbd8d92284ede131e1b9332622c0e5642a3990d366f4885046460e0.png" title=" Luz clicks on button that shows us the next form of the Register" width="1366"/>
+                <img src="ece351916fbd8d92284ede131e1b9332622c0e5642a3990d366f4885046460e0.png" title=" Luz diligence adress (completed): <span class='failing-color'>FAILURE</span>" width="1366"/>
             </div>
         </div>
 
